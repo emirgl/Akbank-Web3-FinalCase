@@ -3,7 +3,6 @@
   list-style: none;
   text-decoration: none;
 }
-/* ctrl+ d defalrca bas replace*/
 
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
@@ -11,7 +10,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  /* background-image: url('./Yeni\ Proje.png') ; */
   background-repeat: no-repeat;
   background-size: cover;
 background-color: #5ce1e6 !important;
@@ -72,17 +70,17 @@ background-color: #5ce1e6 !important;
 }
 
 body::-webkit-scrollbar {
-width: 8px;               /* width of the entire scrollbar */
+width: 8px;               
 }
 
 body::-webkit-scrollbar-track {
-background: rgb(135, 22, 153);        /* color of the tracking area */
-background:linear-gradient(purple,#5ce1e6);    /* color of the scroll thumb */
+background: rgb(135, 22, 153);
+background:linear-gradient(purple,#5ce1e6);   
 
 }
 
 body::-webkit-scrollbar-thumb {
-background-color: rgb(231, 229, 229);    /* color of the scroll thumb */
-border-radius: 5px;       /* roundness of the scroll thumb */
-border: 1px solid #47033952;  /* creates padding around scroll thumb */
+background-color: rgb(231, 229, 229);   
+border-radius: 5px;     
+border: 1px solid #47033952; 
 }
